@@ -1,0 +1,21 @@
+{
+  "name": "share-state-with-sibling-react-component",
+  "version": "1.0.0",
+  "description": "How to efficiently share state between sibling React components without re-rendering the entire parent tree?",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "mini-store": "1.1.0",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-scripts": "1.1.4",
+    "unstated": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
