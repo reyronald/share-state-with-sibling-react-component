@@ -3,7 +3,7 @@
 
 Consider the following component tree:
 
-```jsx
+```js
 <Parent>
   <ChildA>
   <ChildB>
@@ -27,8 +27,8 @@ In `./src/mini-store.js`, the `mini-store` npm package is used. It provides very
 allows you to connect & communicate only the necessary components without involving any others.
 In this particular example, when `<ChildA>` triggers a change, only `<ChildB>` is re-rendered (as it should).
 
-
-
-
+In `./src/unstated.js`, the `unstated` npm package is used. Here, the UI corresponding to `<ChildB>` will be updated,
+__but no re-renders will occur, in any component (not even in `<ChildB>` itself)__. This is because of how differently
+`unstated` works internally and handles DOM changes.
 
 [lift]: https://reactjs.org/docs/lifting-state-up.html#lifting-state-up
