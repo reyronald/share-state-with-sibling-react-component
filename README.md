@@ -1,5 +1,5 @@
 > NOTE: To explore this repo in CodeSandbox, remember to switch on the "Current Module View"
-> in the top-right corner of the Preview window.
+> in the top-right corner of the Preview window: https://codesandbox.io/s/github/reyronald/share-state-with-sibling-react-component
 
 Consider the following component tree:
 
